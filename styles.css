@@ -3,8 +3,9 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("1725723.webp");
+    background-image: url("background.webp");
     background-size: cover;
+    font-family: "latoblack";
 }
 /* We set the logo to one side the nav items to the other */
 .navbar
@@ -39,16 +40,15 @@ a
 {
     display: flex; 
     flex-direction: row;
-    margin-right: 25px; 
+    margin-right: 40px; 
 }
 /* We position the items and do some font CSS */
 .nav-item
 {
-    
-    padding: 30px 15px; 
-    
+    letter-spacing: 1.5px;
+    padding: 30px; 
     font-size: large;
-    font-weight: 500;
+    font-weight: 300;
     text-decoration: none;
     transition: ease-in-out 0.2s;
 }
