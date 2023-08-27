@@ -42,6 +42,8 @@ a
 {
     display: flex; 
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin-right: 40px; 
 }
 /* We position the items and do some font CSS */
@@ -61,4 +63,26 @@ a
     color: white;
     
 }
-
+/* Basic formatting for the search bar and icon */
+#search-icon
+{
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+}
+#search-input
+{
+    font-family: "latoblack";
+    background-color: #89bb66;
+    border: 2px solid black;
+    border-radius: 5px;
+ 
+}
+/* Focus event happens when you click the input field */
+#search-input:focus
+{
+  
+    outline: none;
+    border-color: #26893e;
+    
+}
