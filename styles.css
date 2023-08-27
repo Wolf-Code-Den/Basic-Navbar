@@ -15,6 +15,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #18181895;
+    -webkit-user-select: none;
 }
 /* We simply set the text color  */
 a
@@ -29,6 +30,7 @@ a
     font-size: x-large;
     font-weight: 600;
     transition:  ease-in-out 0.2s;
+    
 }
 /* With the transition above, it gives a smooth hover effect */
 .logo:hover 
