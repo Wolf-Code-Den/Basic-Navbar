@@ -1,88 +1,73 @@
 /* We reset the default values of the body */
 /* We also set the background image here */
-body{
-    margin: 0;
-    padding: 0;
-    background-image: url("background.webp");
-    background-size: cover;
-    font-family: "latoblack";
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("background.webp");
+  background-size: cover;
+  font-family: "latoblack";
 }
 /* We set the logo to one side the nav items to the other */
-.navbar
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #18181895;
-    -webkit-user-select: none;
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #18181895;
+  -webkit-user-select: none;
 }
 /* We simply set the text color  */
-a
-{
-    color: #79e125;
+a {
+  color: #79e125;
 }
 /* We position the logo and do some font CSS */
-.logo
-{
-    margin: 25px 0 25px 100px;
-    text-decoration: none;
-    font-size: x-large;
-    font-weight: 600;
-    transition:  ease-in-out 0.2s;
-    
+.logo {
+  margin: 25px 0 25px 100px;
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: 600;
+  transition: ease-in-out 0.2s;
 }
 /* With the transition above, it gives a smooth hover effect */
-.logo:hover 
-{
-    color: black;
+.logo:hover {
+  color: black;
 }
 /* We align the items to be in a row */
-.nav-items
-{
-    display: flex; 
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-right: 40px; 
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
 }
 /* We position the items and do some font CSS */
-.nav-item
-{
-    letter-spacing: 1.5px;
-    padding: 30px; 
-    font-size: large;
-    font-weight: 300;
-    text-decoration: none;
-    transition: ease-in-out 0.2s;
+.nav-item {
+  letter-spacing: 1.5px;
+  padding: 30px;
+  font-size: large;
+  font-weight: 300;
+  text-decoration: none;
+  transition: ease-in-out 0.2s;
 }
 /* Smooth hover animation */
-.nav-item:hover
-{
-    background-color: black;
-    color: white;
-    
+.nav-item:hover {
+  background-color: black;
+  color: white;
 }
 /* Basic formatting for the search bar and icon */
-#search-icon
-{
-    width: 30px;
-    height: 30px;
-    padding: 15px;
+#search-icon {
+  width: 30px;
+  height: 30px;
+  padding: 15px;
 }
-#search-input
-{
-    font-family: "latoblack";
-    background-color: #89bb66;
-    border: 2px solid black;
-    border-radius: 5px;
- 
+#search-input {
+  font-family: "latoblack";
+  background-color: #89bb66;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 /* Focus event happens when you click the input field */
-#search-input:focus
-{
-  
-    outline: none;
-    border-color: #26893e;
-    
+#search-input:focus {
+  outline: none;
+  border-color: #26893e;
 }
